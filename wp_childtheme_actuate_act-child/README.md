@@ -12,4 +12,4 @@ Donate:       https://github.com/VadymVolos/Themes/blob/master/README.md
 - Подключена папка с языками;
 - Сделан перевод на русский (30%);
 - В футере копирайт только ваш;
-- Папка дочерней темы называется по другому, потому что при загрузке темы на https://wordpress.org/themes/getting-started/ если название совпадает с материским пишет такое: "You cannot use WordPress or theme in your theme name."
+- Папка дочерней темы называется по-другому, потому что при загрузке темы на https://wordpress.org/themes/getting-started/ если название совпадает с материским пишет такое: "You cannot use WordPress or theme in your theme name."
