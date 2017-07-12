@@ -1,0 +1,18 @@
+*** Garfunkel Child Theme W11 Changelog (garfunkel-child-w11) ***
+
+
+Version 1.0.1 (2017-07-07)
+-------------------------
+- Delete href="<?php the_permalink(); ?>" in 
+  page.php and template-fullwidth.php
+  It was: <a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title(); ?>"> 
+  After: <a rel="bookmark" title="<?php the_title(); ?>">
+- template-fullwidth.php add class for img 1280px
+
+
+
+Version 1.0.0 (2017-07-06)
+-------------------------
+
+
+

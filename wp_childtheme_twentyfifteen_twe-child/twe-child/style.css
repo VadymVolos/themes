@@ -1,0 +1,154 @@
+/*
+ Theme Name:   Twe-Child
+ Theme URI:    https://github.com/VadymVolos/Themes/#
+ Description:  Twenty Fifteen Child Theme. Added transition effect in Left Menu. Added a second menu to the footer for Terms and Privacy.
+ Author:       Vadym Volos
+ Author URI:   https://github.com/VadymVolos/Themes/
+ Template:     twentyfifteen
+ Version:      1.0.1
+ License:      
+ License URI:  
+ Tags:         blog, two-columns, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+ Text Domain:  twe-child
+*/
+
+
+@import url("../twentyfifteen/style.css");
+
+
+/*===========================
+Все ссылки при наведении менять плавно
+============================*/
+body a {
+    transition: all .5s; /* .5s равносильно 0.5s или 500ms */
+}
+
+/*===========================
+Шрифт был с засечками сделал без засечек
+============================*/
+body, button, input, select, textarea {
+    font-family: "Noto Sans", sans-serif;
+}
+.entry-title {
+    font-family: "Noto Serif", serif; /* заголовки вернул как было - шрифт с засечками */
+}
+
+/*===========================
+В постах списки подвинул вправо чтоб было красиво.
+============================*/
+.site-main ul {
+    padding-left: 1.01em;
+    margin-top: -16px;
+}
+
+/*===========================
+Виджет Рубрики - эффект плавное смешение
+И виджет Произвольное меню - эффект плавное смещение
+============================*/
+@media screen and (min-width: 320px) { 
+    .main-navigation .nav-menu li.menu-item,
+    .widget_categories li.cat-item,
+    .widget-area .widget_nav_menu ul.menu li.menu-item {
+        transition: all .5s; /* .5s равносильно 0.5s или 500ms */
+    }
+    .main-navigation .nav-menu li.menu-item:hover,
+    .widget_categories li.cat-item:hover,
+    .widget-area .widget_nav_menu ul.menu li.menu-item:hover {
+        padding-left: 14px;
+    }
+}
+
+/*===========================
+Добавил в тему меню для футера (меню для политика конфиденциальности, согласие с рассылкой и тп).
+============================*/
+
+.menu2-footer-copy-v {
+    position: absolute;
+    margin-top: 52px;
+    margin-bottom: 10px;
+    font-size: 11pt;
+}
+.menu2-footer-copy-v ul {
+    list-style: none;
+    margin: 0; /* на мобильном убрал отступ справа */
+}
+.menu2-footer-copy-v ul li {
+    display: inline;
+    /* float: left; - можно float вместо display inline */
+}
+.menu2-footer-copy-v ul li:before {
+    content: "| ";
+    content: "• ";
+    content: "◦ ";
+    color: rgba(156, 156, 156, 0.01);
+}
+.menu2-footer-copy-v ul li:first-child:before {
+    content: '';
+    content: none;
+}
+.menu2-footer-copy-v ul li a { opacity: 0.3; color: #797980; transition: all .5s; border-bottom: none; }
+.menu2-footer-copy-v ul li a:hover { opacity: 0.7; color: #505050; border-bottom: none; }
+
+
+/**
+ * 16.0 Media Queries
+ * медиазапросы должны быть в конце фала style.css, в конце всех стилей.
+ */
+
+/**
+ * 16.1 Mobile 320px
+ */
+@media screen and (max-width: 415px) {
+.menu2-footer-copy-v {margin-top: 30px; margin-bottom: 17px;}
+.menu2-footer-copy-v ul li {display: block;}
+.menu2-footer-copy-v ul li:before {content: none;}
+}
+
+/**
+ * 16.1 Mobile Large 620px
+ */
+@media screen and (min-width: 38.75em) {
+
+}
+
+/**
+ * 16.2 Tablet Small 740px
+ */
+@media screen and (min-width: 46.25em) {
+
+}
+
+/**
+ * 16.3 Tablet Large 880px
+ */
+@media screen and (min-width: 55em) {
+
+}
+
+/**
+ * 16.4 Desktop Small 955px
+ */
+@media screen and (min-width: 59.6875em) {
+
+}
+
+/**
+ * 16.5 Desktop Medium 1100px
+ */
+@media screen and (min-width: 68.75em) {
+
+}
+
+/**
+ * 16.6 Desktop Large 1240px
+ */
+@media screen and (min-width: 77.5em) {
+
+}
+
+/**
+ * 16.7 Desktop X-Large 1403px
+ */
+@media screen and (min-width: 87.6875em) {
+
+}

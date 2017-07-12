@@ -1,0 +1,100 @@
+/*
+ Theme Name:   Act-Child
+ Theme URI:    https://github.com/VadymVolos/Themes/#
+ Description:  Act-Child is a child theme for the Actuate Theme (https://wordpress.org/themes/actuate/). Add font "Open Sans". The main menu is repainted in syle.css. Added Russian translation of the theme (30%). Changed the block of copyright (now only your copyright).
+ Author:       Vadym
+ Author URI:   https://github.com/VadymVolos/Themes/
+ Template:     actuate
+ Version:      1.0.2
+ Tags:         white, orange, light, responsive-layout, fluid-layout, two-columns, three-columns, right-sidebar, custom-menu, threaded-comments, theme-options, translation-ready, custom-background
+ Text Domain:  act-child
+*/
+
+
+/* --------------------------------------------
+	CHILD THEME CSS
+-------------------------------------------- */
+
+
+html {overflow-y: scroll;}
+
+.headfont,
+.post-nav a,
+.archive-nav a,
+.site-title a,
+.single .post-title h1,
+.page .post-title h1,
+.footerbox-section h4.widget-title,
+.sidebar-right-section h4.widget-title {
+  font-family: "Open Sans", sans-serif;
+}
+.bodyfont, body, .copyright {
+  font-family: "Open Sans", sans-serif;
+}
+
+.primarymenu-section a {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+.logo-section {
+  padding: 0 0 50px;
+}
+
+.single .post-content h3,
+.page .post-content h3 {
+  font-size: 24px;
+}
+
+.loop-post-title {
+    padding-bottom: 0px;
+}
+
+.logo-contacts {
+	font-size: 30px;
+    text-align: center;
+    margin-top: -27px;
+    margin-bottom: 23px;
+}
+
+/* --------------------------------------------
+	CHILD THEME @media 
+-------------------------------------------- */
+
+@media only screen and (min-width: 1000px) { 
+	.orange .primarymenu-section {border: none;}
+	.nav-section {background: #212538;}
+	.orange .primarymenu-section a {color: #ffffff;}	
+	.orange .primarymenu-section li.current-menu-item > a, .orange .primarymenu-section li.current-menu-ancestor > a,
+	.orange .primarymenu-section li.current_page_item > a, .orange .primarymenu-section li.current_page_ancestor > a {color: #ffb07b;}
+	.orange .primarymenu-section .sub-menu li a, .orange .primarymenu-section .children li a { color: #555555;}	
+	.orange .primarymenu-section a:hover {color: #ffb07b;}
+	.orange .primarymenu-section li.current_page_item > a {color: #ffb07b;}
+	.content-section {max-width: 1178px !important;}
+	.right_sidebar .inner-post-section {padding-left: 5px;}	
+	#footerbox-col-1 {}
+	.footerbox-section ul {padding-left: 0px;}
+	.copyright {padding-left: 5px;}
+}
+
+
+/* --------------------------------------------
+	CHILD THEME Footer @media only screen and (min-width: 1000px) 
+-------------------------------------------- */
+/*
+.orange .footer-bg-section {
+    background: #fff;
+    border: none;
+    box-shadow: none;
+}
+.orange .footer-section {
+    background-color: #222222;
+    border-top: 1px solid #3e3e3e;
+    -webkit-box-shadow: 0 -2px 5px -5px #000000;
+    -moz-box-shadow: 0 -2px 5px -5px #000000;
+    box-shadow: 0 -2px 5px -5px #000000;
+    padding-left: 25px;
+}
+*/

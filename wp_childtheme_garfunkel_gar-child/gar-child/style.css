@@ -1,0 +1,43 @@
+/*
+ Theme Name:   Gar-Child
+ Theme URI:    https://github.com/VadymVolos/Themes/#
+ Description:  Gar-Child is a child theme for the Garfunkel Theme (https://wordpress.org/themes/garfunkel/).
+ Author:       Vadym V
+ Author URI:   https://github.com/VadymVolos/Themes/
+ Template:     garfunkel
+ Version:      1.0.1
+ License:      
+ License URI:  
+ Tags:         blog, three-columns, custom-colors, custom-header, custom-menu, editor-style, featured-images, footer-widgets, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, grid-layout, portfolio
+ Text Domain:  gar-child
+*/
+
+
+/* Social menu --------------------------------------- */
+
+.menu-social li a[href*="codepen.io"]::before { content: '\f216'; }
+.menu-social li a[href*="dribbble.com"]::before { content: '\f201'; }
+.menu-social li a[href*="facebook.com"]::before { content: '\f204'; }
+.menu-social li a[href*="flickr.com"]::before { content: '\f211'; }
+.menu-social li a[href*="github.com"]::before { content: '\f200'; }
+.menu-social li a[href*="instagram.com"]::before { content: '\f215'; }
+.menu-social li a[href*="linkedin.com"]::before { content: '\f207'; }
+.menu-social li a[href*="pinterest.com"]::before { content: '\f210'; }
+.menu-social li a[href*="plus.google.com"]::before { content: '\f206'; }
+.menu-social li a[href*="tumblr.com"]::before { content: '\f214'; }
+.menu-social li a[href*="twitter.com"]::before { content: '\f202'; }
+.menu-social li a[href*="vimeo.com"]::before { content: '\f212'; }
+.menu-social li a[href*="wordpress.org"]::before,
+.menu-social li a[href*="wordpress.com"]::before { content: '\f205'; }
+.menu-social li a[href*="youtube.com"]::before { content: '\f213'; }
+
+.menu-social li a[href*="vk.com"]::before { content: '\f189'; } /* no work */
+.menu-social li a[href*="vk.com"]::before { content: '\f212'; }
+/*http://astronautweb.co/snippet/font-awesome/  http://fontawesome.io/icon/vk/  */
+
+
+/* fullwidth post image  ------------------------------- */
+
+.template-fullwidth-w11 .featured-media img{
+    width: 1280px;
+}

@@ -1,0 +1,18 @@
+
+html { overflow-y: scroll; }
+html .modal-open {
+	overflow: hidden !important;
+	padding-right: 0px !important;
+}
+
+
+.container .title-block div.forum-desc {
+    margin-top: 5px;
+}
+
+/* Category header */
+@media screen and (min-width: 768px) {
+	.container-main-1234del {
+		/*width: 100%;*/
+	}
+}
