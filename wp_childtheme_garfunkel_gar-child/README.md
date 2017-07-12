@@ -1,8 +1,10 @@
 
 
 
-Как создать видео пост, Как саоздать пост галерею   
+Как создать видео пост, Как создать пост галерею   
 http://www.andersnoren.se/upcoming-changes-to-my-wordpress-themes/
+https://codex.wordpress.org/Post_Formats  
+https://wp-kama.ru/function/get_post_format  
 
 
 Video format:  
@@ -29,8 +31,6 @@ Content goes here...
 
 ```
 Gallery post format (no work):  
-https://codex.wordpress.org/Function_Reference/the_post_format_gallery 
-функция была доступна в старых версиях ВП, в новых была удалена.
 ```
 
 <!--more-->
