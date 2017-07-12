@@ -29,6 +29,8 @@ Content goes here...
 
 ```
 Gallery post format (no work):  
+https://codex.wordpress.org/Function_Reference/the_post_format_gallery 
+функция была доступна в старых версиях ВП, в новых была удалена.
 ```
 
 <!--more-->
