@@ -1,4 +1,4 @@
-## WP child theme: Act-Child [Actuate]
+## WP child theme: Act-Child [Actuate Theme Free Version]
 
 Mother theme: Actuate (https://wordpress.org/themes/actuate/)  
 Child theme:  Act-Child  
