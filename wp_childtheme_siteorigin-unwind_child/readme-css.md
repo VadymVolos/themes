@@ -1,5 +1,5 @@
-wp_childtheme_siteorigin-unwind_child
-readme-css.md
+wp_childtheme_siteorigin-unwind_child  
+readme-css.md  
 
 
 Нет времени дчернюю делать. Ниже стили, которые нужны чтоб тема выглядела лучше.
