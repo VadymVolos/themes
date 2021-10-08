@@ -2,8 +2,8 @@
 
 Donate:  
 
--  
--  
+-  to be announced
+-  to be announced
 
 
 Themes for CMS:
@@ -13,3 +13,4 @@ Themes for CMS:
 - WP Child Theme: twe-child (Twenty Fifteen)  
 - WP Child Theme: gar-child  
 - WP Child Theme: act-child  
+- WP Child Theme: generatepress-child  
